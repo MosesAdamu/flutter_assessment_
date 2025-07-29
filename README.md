@@ -1,37 +1,31 @@
-# Location-Based Reporting App (Flutter + Firebase)
+# Location-Based Reporting App 📍
 
-A mobile application for submitting geo-tagged reports with media attachments, built with Flutter and Firebase.
+A simplified Flutter app for submitting geotagged reports with media (image/video). Built for Iconic University Flutter Developer assessment.
 
-## ✨ Features
-- 🔐 Firebase Authentication (Email/Password)
-- 📍 GPS location capture with coordinates
-- 📸 Image/video attachment from camera/gallery
-- 🗂️ Report categorization
-- 📝 Form validation and submission
-- 📋 Submission history view
-- 🗺️ Google Maps integration (optional)
+## 🔧 Features
+- User login/register (email & password)
+- Submit reports with:
+  - Title, description, category
+  - Media attachment (camera/gallery/video)
+  - Location via GPS
+- View all previously submitted reports
 
-## 📋 Assessment Requirements Checklist
-| Requirement | Status |
-|-------------|--------|
-| User login | ✅ Implemented |
-| Report submission | ✅ Implemented |
-| Category selection | ✅ Implemented |
-| Location capture | ✅ (Coordinates) |
-| Map pin location | ⚠️ (Needs Google Maps API) |
-| Media attachment | ✅ (Images) |
-| Coordinate overlay | ⚠️ (Needs image package) |
-| Submission history | ✅ (Basic list) |
-| Clean UI | ⚠️ (Needs Figma matching) |
+## 📦 Tech Stack
+- Flutter 3.x
+- Firebase (Auth, Firestore, Storage)
+- Google Maps + Geolocator
+- Image/Video Picker
 
-## 🛠️ Setup Instructions
+## 🚀 Setup Instructions
 
-### Prerequisites
-- Flutter SDK (v3.0.0+)
-- Android Studio/Xcode (for emulators)
-- Firebase account
+1. Clone this repo
+2. Set up Firebase:
+   - Enable Auth, Firestore, Storage
+   - Add `google-services.json` to `android/app/`
+   - Enable Maps SDK & get Google Maps API Key
+3. Update `AndroidManifest.xml` with your API key
+4. Run:
 
-### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/location-reporting-app.git
-cd location-reporting-app
+flutter pub get
+flutter run

@@ -1,4 +1,4 @@
-package com.example.location_reporting_app
+package com.example.location_report_app
 
 import io.flutter.embedding.android.FlutterActivity
 

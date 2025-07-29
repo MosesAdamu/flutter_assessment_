@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "245928181377",
+    "project_id": "location-report-app-da888",
+    "storage_bucket": "location-report-app-da888.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245928181377:android:c2986eda6245b7593e1780",
+        "android_client_info": {
+          "package_name": "com.example.location_report_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvb_UJNFF8mQV1PdThsYnm7QrTWqHGlyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
